@@ -20,18 +20,18 @@ const validationSchema = object({
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    marginTop: theme.spacing(12),
+    marginTop: theme.spacing(8),
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
   },
   form: {
-    width: "90%", // Fix IE 11 issue.
-    backgroundColor: 'yellow',
-    marginTop: theme.spacing(4),
+    width: "100%", // Fix IE 11 issue.
+    backgroundColor: 'pink',
+    marginTop: theme.spacing(2),
   },
   submit: {
-    margin: theme.spacing(3, 0, 2),
+    margin: theme.spacing(3, 1, 2),
   },
 }));
 
