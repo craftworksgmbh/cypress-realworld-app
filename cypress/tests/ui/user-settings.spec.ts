@@ -25,6 +25,7 @@ describe("User Settings", function () {
     cy.getBySel("user-settings-form").should("be.visible");
     cy.location("pathname").should("include", "/user/settings");
 
+    cy.percySnapshot('testfffff');
     cy.visualSnapshot("User Settings Form");
   });
 
