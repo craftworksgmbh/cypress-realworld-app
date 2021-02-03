@@ -22,16 +22,15 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     alignItems: "center",
   },
   form: {
     width: "100%", // Fix IE 11 issue.
-    backgroundColor: 'pink',
-    marginTop: theme.spacing(2),
+    marginTop: theme.spacing(1),
   },
   submit: {
-    margin: theme.spacing(3, 1, 2),
+    margin: theme.spacing(3, 0, 2),
   },
 }));
 
