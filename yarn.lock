@@ -2798,7 +2798,7 @@
     which "^2.0.1"
     winston "^3.0.0"
 
-"@percy/cypress@2.3.4":
+"@percy/cypress@^2.3.4":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-2.3.4.tgz#9605fd848ab27aab795515a22a8868078ba57838"
   integrity sha512-UiVnLdcgRnOD1C5orkQiCQC1OFcb/Kt4CWSOVg61JkWNgeWb03os9HN2vjlwgb11eCR8gLHBs+O7T9MRMy28Qg==
